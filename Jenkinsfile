@@ -8,9 +8,9 @@ pipeline {
       }
     }
 
-    stage('send ') {
+    stage('mail') {
       steps {
-        mail(subject: 'report', body: 'test', from: 'jenkins', to: 'misawa21@gmail.com')
+        mail(subject: 'report', body: 'report', to: 'voicetube21@gmail.com')
       }
     }
 
