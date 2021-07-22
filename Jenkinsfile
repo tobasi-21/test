@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('push_code') {
       steps {
-        sh 'dir/w'
+        bat(script: 'dir/w', returnStatus: true)
       }
     }
 
