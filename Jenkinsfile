@@ -8,5 +8,11 @@ pipeline {
       }
     }
 
+    stage('send ') {
+      steps {
+        mail(subject: 'report', body: 'test', from: 'jenkins', to: 'misawa21@gmail.com')
+      }
+    }
+
   }
 }
