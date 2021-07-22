@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('cmd') {
       steps {
-        bat(script: 'po', returnStatus: true, returnStdout: true)
+        bat(script: 'po', returnStatus: true, returnStdout: true, encoding: 'dww', label: 'qdqdq')
       }
     }
 
