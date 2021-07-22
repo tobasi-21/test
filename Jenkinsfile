@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('run') {
       steps {
-        bat(script: 'pytest', returnStatus: true)
+        bat(script: 'pytest 9.py', returnStatus: true)
       }
     }
 
