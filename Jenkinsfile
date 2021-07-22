@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('push_code') {
       steps {
-        sh 'python -v'
+        sh 'dir/w'
       }
     }
 
