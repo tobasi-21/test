@@ -1,10 +1,11 @@
 pipeline {
   agent any
   stages {
-    stage('push_code') {
+    stage('cmd') {
       steps {
-        bat(script: 'dir/w', returnStatus: true)
-        bat(script: 'python -v', returnStatus: true)
+        bat(script: 'po45646546', returnStatus: true, label: 'qdqdq')
+        mail(subject: 'reirt', body: 'reirt', to: 'misawa21@gmail.com')
+        emailext(attachLog: true, subject: 'jenkins_report', body: 'build_result', to: 'misawa21@gmail.com', compressLog: true, from: 'voicetube21@gmail.com', attachmentsPattern: 'log')
       }
     }
 
