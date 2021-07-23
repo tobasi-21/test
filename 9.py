@@ -8,7 +8,7 @@ import allure
 def test_aa():
     a=1
     b=1
-    return assert a==b
+    assert a==b
     
     
 # print('ss')
