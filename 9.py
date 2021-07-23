@@ -10,5 +10,5 @@ def test_aa():
     b=2
 
     assert a==b
-    os.system(" echo '无失败用例' && exit 0")
+    os.system("exit 0")
 # print('ss')
