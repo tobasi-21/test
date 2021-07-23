@@ -10,5 +10,5 @@ def test_aa():
     b=2
 
     assert a==b
-    os.system("exit 0")
+    os.system("exit 1")
 # print('ss')
