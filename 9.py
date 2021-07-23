@@ -10,5 +10,6 @@ def test_aa():
     b=2
     if a!=b:
         os.system("exit 1")
+        print('ssssssssss')
     
 # print('ss')
