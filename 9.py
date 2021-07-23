@@ -7,7 +7,8 @@ import allure
 
 def test_aa():
     a=1
-    b=2
-    assert a==b
-    os.system("exit 1")
+    b=1
+    return assert a==b
+    
+    
 # print('ss')
